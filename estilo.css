@@ -1,0 +1,85 @@
+/* Estilos Gerais para o Corpo da Página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão para o corpo da página */
+    line-height: 1.6; /* Ajusta o espaçamento entre linhas para melhor legibilidade */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Cor de fundo clara e neutra */
+}
+
+/* Estilos para o Cabeçalho e Navegação */
+header {
+    background-color: #333; /* Cor de fundo escura para o cabeçalho */
+    color: #fff; /* Cor do texto do cabeçalho */
+    padding: 10px 0; /* Espaçamento interno do cabeçalho */
+}
+
+nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0;
+    text-align: center; /* Centraliza o texto dos links */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+nav a {
+    color: #fff; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold; /* Deixa o texto dos links em negrito */
+}
+
+/* Estilos para a Seção Principal */
+main {
+    padding: 20px; /* Espaçamento interno da seção principal */
+    max-width: 800px; /* Largura máxima da seção principal */
+    margin: 0 auto; /* Centraliza a seção principal */
+}
+
+section {
+    margin-bottom: 20px; /* Espaçamento entre seções */
+}
+
+/* Estilos para o Rodapé */
+footer {
+    background-color: #333; /* Cor de fundo escura para o rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    text-align: center; /* Centraliza o texto do rodapé */
+    padding: 10px 0; /* Espaçamento interno do rodapé */
+    position: fixed; /* Fixa o rodapé na parte inferior da página */
+    bottom: 0;
+    width: 100%; /* Largura total do rodapé */
+}
+
+/* Estilos para o Formulário de Contato */
+form {
+    display: flex; /* Usa flexbox para o layout do formulário */
+    flex-direction: column; /* Alinha os itens do formulário em coluna */
+}
+
+label {
+    margin-top: 10px; /* Espaçamento acima dos rótulos */
+}
+
+input, textarea {
+    padding: 10px; /* Espaçamento interno dos campos de entrada */
+    margin-top: 5px; /* Espaçamento acima dos campos de entrada */
+    border: 1px solid #ccc; /* Borda leve para os campos de entrada */
+    border-radius: 4px; /* Arredonda os cantos das bordas */
+}
+
+button {
+    margin-top: 10px; /* Espaçamento acima do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão do botão */
+    background-color: #5cb85c; /* Cor de fundo verde para o botão */
+    color: #fff; /* Cor do texto do botão */
+    border-radius: 4px; /* Arredonda os cantos do botão */
+    cursor: pointer; /* Adiciona um cursor de pointer ao passar sobre o botão */
+}
+
+button:hover {
+    background-color: #4cae4c; /* Cor do botão ao passar o mouse */
+}
